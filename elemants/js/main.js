@@ -22,3 +22,8 @@ var sum = n1 + n2;
   console.log( sum);
   sum = sum.indexOf(result);
     console.log(sum);
+    
+    sum++;
+    if(sum >0){
+        console.log("sum is greater than 0  and the valu is :",  sum);
+    }
