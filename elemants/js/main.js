@@ -5,6 +5,7 @@ var result;
 //main program
 var sum = n1 + n2;
     sum = parseInt(sum); //******  
+    sum++;
     sum = sum + "";
     sum = typeof sum;
     sum = sum.toUpperCase();
@@ -27,3 +28,6 @@ var sum = n1 + n2;
     if(sum >0){
         console.log("sum is greater than 0  and the valu is :",  sum);
     }
+var friendsAge = [20, 19, 21];
+ friendsAge[2] =2; 
+console.log(friendsAge);
