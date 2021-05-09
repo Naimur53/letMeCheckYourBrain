@@ -69,15 +69,18 @@ for (var i=0; i<l; i++)
 {
     console.log(naimur[i]);
 }
-var avi = [3334,4343,32345,432];
+var avi = [1,43,32,432];
 var x = 0;  
 var y ;
 while(4000>x){
     y = avi.indexOf(x);
-    console.log("y",y);
-    if(y>0){
-        console.log(x);
+   
+    if(y>=0){
+        console.log("r",x);
+        x++;
     }
-    x++;
+     else{
+         x++;
+     }
 
 }
