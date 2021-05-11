@@ -58,8 +58,12 @@ while(song <=10){
 
 var naimur = [2,4,5,6];
 var l=naimur.length;
-var r = 0;
-var c ;
+v656a
+
+
+
+
+0;var c ;
 while(r<l){ 
     c = naimur[r]; 
     console.log(c);
@@ -84,3 +88,4 @@ while(4000>x){
      }
 
 }
+var ovi;
