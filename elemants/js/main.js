@@ -89,3 +89,4 @@ while(4000>x){
 
 }
 var ovi;
+var n;
