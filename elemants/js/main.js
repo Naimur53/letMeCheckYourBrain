@@ -97,6 +97,5 @@ switch(ovi){
         console.log ("its 30 or 20");
         break;
     default:
-        console.log("wrong number ");
-
+        console.log("wrong number "); 
 }
