@@ -57,19 +57,15 @@ while(song <=10){
 }
 
 var naimur = [2,4,5,6];
-var l=naimur.length;
-v656a
-
-
-
-
-0;var c ;
+var l=naimur.length; 
+var c ;
+var r =0;
 while(r<l){ 
     c = naimur[r]; 
     console.log(c);
     r++;
 }
-for (var i=0; i<l; i++)
+for(var i=0; i<naimur.length; i++)
 {
     console.log(naimur[i]);
 }
