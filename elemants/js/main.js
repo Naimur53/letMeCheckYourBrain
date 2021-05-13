@@ -84,5 +84,19 @@ while(4000>x){
      }
 
 }
-var ovi;
-var n;
+var ovi=100; 
+switch(ovi){
+    case 100:
+        console.log("its 100");
+        break;
+    case 50:
+        console.log ("its 50 ");
+        break;
+    case 30:
+    case 20:
+        console.log ("its 30 or 20");
+        break;
+    default:
+        console.log("wrong number ");
+
+}
