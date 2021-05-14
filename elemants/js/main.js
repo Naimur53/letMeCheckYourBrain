@@ -89,11 +89,9 @@ switch(ovi){
         console.log("wrong number "); 
 }
 while(3000>x){
-    y = avi.indexOf(x);
-   
-     
-     switch (y){
-        case y>=0:
+    y = avi.indexOf(x);  
+     switch (true){
+        case( y>=0):
             console.log("refd",x);
             x++;
             break;
