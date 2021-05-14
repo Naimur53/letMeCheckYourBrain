@@ -72,18 +72,7 @@ for(var i=0; i<naimur.length; i++)
 var avi = [1,43,32,432];
 var x = 0;  
 var y ;
-while(4000>x){
-    y = avi.indexOf(x);
-   
-    if(y>=0){
-        console.log("r",x);
-        x++;
-    }
-     else{
-         x++;
-     }
-
-}
+ 
 var ovi=100; 
 switch(ovi){
     case 100:
@@ -103,12 +92,13 @@ while(3000>x){
     y = avi.indexOf(x);
    
      
-     switch (Y){
+     switch (y){
         case y>=0:
             console.log("refd",x);
             x++;
+            break;
         default:
-            x++;
+            x++; 
      }
 
 }
