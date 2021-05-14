@@ -99,3 +99,16 @@ switch(ovi){
     default:
         console.log("wrong number "); 
 }
+while(3000>x){
+    y = avi.indexOf(x);
+   
+     
+     switch (Y){
+        case y>=0:
+            console.log("refd",x);
+            x++;
+        default:
+            x++;
+     }
+
+}
