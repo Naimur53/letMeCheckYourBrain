@@ -101,3 +101,7 @@ while(3000>x){
 
 }
 var na;
+function oddOrEven(){
+    console.log("learning function ");
+}
+oddOrEven();
