@@ -28,7 +28,7 @@ var sum = n1 + n2;
     if(sum >0){
         console.log("sum is greater than 0  and the valu is :",  sum);
     }
-    //learning new thing in j
+    //learning new thing in js
 var friendsAge = [20, 19, 21];
  friendsAge[1] =2; // it well repleace 19 by 2
  var n=3;
@@ -37,8 +37,8 @@ console.log(friendsAge);
 console.log(friendsAge.length);//length of arrary (how many elemants array have)
  
 var hi = [23,5,56,3]; 
-hi.pop();
-hi.push("sadi")
+hi.pop();//it wil remove last element in arry 
+hi.push("sadi")//adding new thing in array 
 hi.unshift("naimur ")//unshift will add element in beginning of array
 hi.shift();//it will remove element in the beginning of array
 console.log( hi );
@@ -48,8 +48,8 @@ pop remove last
 unshift adding first 
 shift removing first
 */ 
-hi=hi.slice(2);//it wil delete first 0 1 and start showing at  2 to end ;
-console.log(hi);
+hi=hi.slice(2,3);//it wil delete first 0 1 and start showing at  2 to end ; amake 2 theke dekhao and before 3
+console.log("slice 1 to 2",hi);
 var song = 0;
 while(song <=10){
     console.log("said",song); 
