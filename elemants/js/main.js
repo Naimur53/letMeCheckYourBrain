@@ -101,7 +101,23 @@ while(3000>x){
 
 }
 var na;
-function oddOrEven(){
-    console.log("learning function ");
+function learn(num){
+    var sum = num*2; 
+    return sum;
 }
-oddOrEven();
+var one = learn(33);
+var two = learn(3);
+var sum =one +two;
+console.log(sum);
+function oddOrEven(value){
+    var cheak = value/2;
+    var second = parseInt(cheak);
+    if(cheak > second){
+        console.log("odd");
+    }
+    else{
+        console.log("Even");
+    }   
+}
+oddOrEven(50);
+var ki =4555.234; 
