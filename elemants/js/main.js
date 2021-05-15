@@ -36,7 +36,7 @@ var friendsAge = [20, 19, 21];
 console.log(friendsAge);
 console.log(friendsAge.length);//length of arrary (how many elemants array have)
  
-var hi = [23,5,56,3]; 
+var hi = [23,5,56,3,2]; 
 hi.pop();//it wil remove last element in arry 
 hi.push("sadi")//adding new thing in array 
 hi.unshift("naimur ")//unshift will add element in beginning of array
