@@ -103,12 +103,16 @@ while(3000>x){
 var na;
 function learn(num){
     var sum = num*2; 
-    return sum;
+    return sum;//function ar baire value ke ana jai
 }
 var one = learn(33);
 var two = learn(3);
 var sum =one +two;
 console.log(sum);
+
+
+
+
 function oddOrEven(value){
     var cheak = value/2;
     var second = parseInt(cheak);
@@ -120,4 +124,10 @@ function oddOrEven(value){
     }   
 }
 oddOrEven(50);
-var ki =4555.234; 
+var  student = {id:33, phone:3432, name:"naimur"};
+var ph1 = student.phone;// another is var  ph2 = student["phone"];
+console.log(ph1);
+
+
+
+
