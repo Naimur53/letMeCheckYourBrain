@@ -127,6 +127,10 @@ oddOrEven(50);
 var  student = {id:33, phone:3432, name:"naimur"};
 var ph1 = student.phone;// another is var  ph2 = student["phone"];
 console.log(ph1);
+student.phone = 67;
+console.log(student);
+student.newelemat = 39329389;//adding new propartis 
+console.log(student);
 
 
 
