@@ -140,7 +140,11 @@ for(var i=0; i<same.length;i++){
     }
  
 }
-console.log("large number is ",large);
-var inputFromuser = Window.prompt("you name ");
-console.log("your name is ", inputFromuser);
+console.log("large number is ",large); 
+function inToFet(inch){
+    var feet = inch/12; 
+    return feet;
+}
+var re =inToFet(166);
+console.log(re);
 
