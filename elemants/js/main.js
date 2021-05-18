@@ -141,4 +141,6 @@ for(var i=0; i<same.length;i++){
  
 }
 console.log("large number is ",large);
+var inputFromuser = Window.prompt("you name ");
+console.log("your name is ", inputFromuser);
 
