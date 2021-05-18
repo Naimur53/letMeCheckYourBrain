@@ -131,7 +131,14 @@ student.phone = 67;
 console.log(student);
 student.newelemat = 39329389;//adding new propartis 
 console.log(student);
-
-
-
+var same = [24,5343,222,2];
+var large =same[0];
+for(var i=0; i<same.length;i++){
+    var ele=same[i];
+    if(ele>large){
+        large=ele; 
+    }
+ 
+}
+console.log("large number is ",large);
 
