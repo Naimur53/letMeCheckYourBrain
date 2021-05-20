@@ -147,4 +147,14 @@ function inToFet(inch){
 }
 var re =inToFet(166);
 console.log(re);
+ function leap(year){ 
+     if ((year%4==0)&& (0!=year%200) ||(0==year%400)){
+         console.log("its leap year");
+     }
+     else{
+         console.log("its not a leap year ");
+     }
+ }
+ leap(2021);
 
+ 
