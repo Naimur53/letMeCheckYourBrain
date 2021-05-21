@@ -156,8 +156,11 @@ console.log(re);
      }
  }
  leap(2021); 
- var nums=3,sd=1;
-     for(var i=1;i<=nums; i++){  
-        sd= sd*i;
+ function fact(nums){
+     var sd=1;
+    for(var i=1;i<=nums; i++){  
+         sd = sd*i;
      }  
- console.log(sd);
+      console.log(sd);
+ }
+   fact(3);
