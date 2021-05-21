@@ -155,6 +155,9 @@ console.log(re);
          console.log("its not a leap year ");
      }
  }
- leap(2021);
-
- 
+ leap(2021); 
+ var nums=3,sd=1;
+     for(var i=1;i<=nums; i++){  
+        sd= sd*i;
+     }  
+ console.log(sd);
