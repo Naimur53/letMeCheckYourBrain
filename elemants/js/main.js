@@ -156,11 +156,42 @@ console.log(re);
      }
  }
  leap(2021); 
- function fact(nums){
+ function fact(theNums){
      var sd=1;
-    for(var i=1;i<=nums; i++){  
+    for(var i=1;i<=theNums; i++){  
          sd = sd*i;
      }  
       console.log(sd);
  }
    fact(3);
+   function refact(n){
+       if(n==0){
+           return 1;
+       }
+       else{
+           return n*refact(n-1); 
+       }
+   }
+   var mai=refact(5);
+   console.log(mai);
+//fabo 
+let mainFabo=[0];
+function f(n){
+    var p=1;
+    for(var i=0; i<n; i++){ 
+        mainFabo.push(p);    
+        p=p+mainFabo[i];
+      
+       
+    }
+    console.log("one",mainFabo);
+}
+f(12);
+function fiboj(m){
+    let fibo =[0,1];
+    for(var i=2;i=<m;i++){
+        fibo[i]=fibo[i-1]+fibo[i-2]; 
+    }
+    console.log("two",fibo);
+}
+fiboj(12);
