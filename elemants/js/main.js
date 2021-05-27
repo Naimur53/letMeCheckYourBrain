@@ -243,3 +243,13 @@ for(var i=2; i<prime;i++){
         break;
     }
 }
+function issPrime(n){
+    for(var i=2;i<n;i++){
+        if(n%i==0){
+            return "its prime in function"
+        }
+    }
+    return "its not a prime number in the function"
+}
+var primeResult=issPrime(33);
+console.log(primeResult);
