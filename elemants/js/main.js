@@ -164,7 +164,7 @@ console.log(re);
       console.log(sd);
  }
    fact(3);
-   function refact(n){
+   function refact(n){//recarsive way
        if(n==0){
            return 1;
        }
@@ -189,9 +189,57 @@ function f(n){
 f(12);
 function fiboj(m){
     let fibo =[0,1];
-    for(var i=2;i=<m;i++){
+    for(var i=2;i<=m;i++){
         fibo[i]=fibo[i-1]+fibo[i-2]; 
     }
     console.log("two",fibo);
 }
 fiboj(12);
+function refibo(n){//recarsive way
+    if(n==0){
+        return 0;
+         
+    }
+    if(n==1){
+        return 1;
+    }
+    else{
+        return refibo(n-1)+refibo(n-2);
+    }
+    
+}
+var rrebibo=refibo(12);
+console.log(rrebibo);
+
+function refiboserice(n){//recarsive way
+    if(n==0){
+        return [0];
+         
+    }
+    else if(n==1){
+        return [0,1];
+    }
+    else{
+       var one =refiboserice(n-1);
+       var main = one[n-1] + one[n-2];
+       one.push(main);
+       console.log('oneiner',one);
+       return one;
+    }
+    
+}
+var rrs =refiboserice(12);
+console.log("main",rrs);
+
+// lets check the number is prime or not 
+var prime=31;
+for(var i=2; i<prime;i++){ 
+    if(prime%i==0){
+        console.log("not prime number ");
+        break;
+    }
+    else{
+        console.log(" prime");
+        break;
+    }
+}
